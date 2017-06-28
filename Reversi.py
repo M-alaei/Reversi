@@ -3,8 +3,6 @@ import random
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Updater, CommandHandler, CallbackQueryHandler
 
-logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',level=logging.INFO)
-
 TOKEN = "Your Bot Token"
 updater = Updater(TOKEN)
 playerTile,botTile = [' ',' ']
