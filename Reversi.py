@@ -74,7 +74,7 @@ def isValidMove(board, tile, xstart, ystart):
 			 while board[x][y] == otherTile:
 				 x += xdirection
 				 y += ydirection
-				 if not isOnBoard(x, y): # break out of while loop, then continue in for loop
+				 if not isOnBoard(x, y):
 					 break
 			 if not isOnBoard(x, y):
 				 continue
